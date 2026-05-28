@@ -116,9 +116,7 @@ export default function App() {
             {showNamePopup && (
                 <div className="fixed inset-0 flex items-center justify-center z-40">
                     <div className="bg-white rounded-xl shadow-lg w-full max-w-md p-6">
-                        <h1 className="text-xl font-semibold text-black">
-                            Join a room
-                        </h1>
+                        <h1 className="text-xl font-semibold text-black">Join a room</h1>
                         <p className="text-sm text-gray-500 mt-1">
                             Enter your name and a room name to start chatting.
                         </p>
@@ -189,7 +187,7 @@ export default function App() {
                                                 : 'bg-white text-[#303030] rounded-bl-sm'
                                         }`}
                                     >
-                                        <div className="wrap-break-words whitespace-pre-wrap">
+                                        <div className="break-words whitespace-pre-wrap">
                                             {m.text}
                                         </div>
                                         <div className="flex justify-between items-center mt-1 gap-16">
