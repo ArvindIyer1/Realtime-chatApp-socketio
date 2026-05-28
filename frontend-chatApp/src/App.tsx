@@ -187,7 +187,7 @@ export default function App() {
                                                 : 'bg-white text-[#303030] rounded-bl-sm'
                                         }`}
                                     >
-                                        <div className="break-words whitespace-pre-wrap">
+                                        <div className="wrap-break-words whitespace-pre-wrap">
                                             {m.text}
                                         </div>
                                         <div className="flex justify-between items-center mt-1 gap-16">
